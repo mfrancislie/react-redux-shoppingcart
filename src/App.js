@@ -1,12 +1,7 @@
-// feature 1
-import './App.css';
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>hello francis</h1>
-    </div>
-  );
-}
+const App = () => {
+  return <div>App</div>;
+};
 
 export default App;
