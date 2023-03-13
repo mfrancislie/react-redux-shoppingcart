@@ -1,3 +1,3 @@
 export default function formatCurrency(num) {
-  return 'Php ' + Number(num.toFixed(1)).toLocaleString() + ' ';
+  return 'Php ' + Number(num).toLocaleString() + ' ';
 }
