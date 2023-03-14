@@ -4,6 +4,7 @@ import formatCurrency from '../util';
 import Modal from 'react-modal';
 import { connect } from 'react-redux';
 import { fetchProducts } from '../action/productActions';
+import { addToCart } from '../action/cartActions';
 
 class Products extends Component {
   constructor(props) {
@@ -106,5 +107,6 @@ export default connect(
   (state) => ({ products: state.products.filteredItems }),
   {
     fetchProducts,
+    addToCart,
   }
 )(Products);
